@@ -13,3 +13,7 @@ h2 {
 p {
 	color: pink;
 }
+
+li {
+	list-style: none;
+}
