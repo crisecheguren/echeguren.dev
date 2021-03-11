@@ -7,7 +7,7 @@ body {
 h2 {
 	color: #FE4580;
 	text-align: center;
-	border: 5px solid rgb(255, 114, 159);
+	border: 5px solid rgba(255, 114, 159, 0.5);
 	cursor: pointer;
 }
 
