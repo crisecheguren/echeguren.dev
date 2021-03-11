@@ -32,6 +32,16 @@ p {
 	font-family: 'Noto Sans JP', sans-serif;;
 }
 
+img {
+	float: left;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	font-size: 10px;
+}
+
 li {
 	list-style: none;
 	display: inline-block;
