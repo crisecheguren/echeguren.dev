@@ -10,10 +10,11 @@ body {
 }
 
 h2, p {
+	text-align: center;
 	border: 5px solid rgba(255, 114, 159, 0.5);
 	cursor: pointer;
 }
-h3 p:hover {
+h3 p {
 	text-align: center;
 	border: 5px solid rgba(255, 114, 159, 0.5);
 	cursor: pointer;
@@ -24,6 +25,11 @@ h2 {
 
 p {
 	color: #FFFFFF;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 120%;
+	font-family: 'Noto Sans JP', sans-serif;;
 }
 
 li {
