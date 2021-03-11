@@ -1,21 +1,48 @@
 
+* {
+	text-align: right;
+}
+
+
 body {
 	background-image: url(background.jpg);
 	background-size: cover;
 }
 
-h2 {
-	color: #FE4580;
+h2, p {
+	border: 5px solid rgba(255, 114, 159, 0.5);
+	cursor: pointer;
+}
+h3 p:hover {
 	text-align: center;
 	border: 5px solid rgba(255, 114, 159, 0.5);
 	cursor: pointer;
 }
+h2 {
+	color: #FE4580;
+}
 
 p {
-	color: pink;
+	color: #FFFFFF;
 }
 
 li {
 	list-style: none;
 	display: inline-block;
+}
+
+.text:last-child {
+	border : 5px dashed #45FDA9;
+}
+
+.active {
+	color: #E1FF45;
+}
+
+#para {
+	background: rgb(255, 119, 69, .4);
+}
+
+#para2 {
+	background: rgba(156, 254, 69, .4);
 }
