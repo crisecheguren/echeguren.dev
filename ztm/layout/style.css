@@ -1,5 +1,6 @@
 body {
     margin: auto 0;
+    font-family: Helvetica;
 }
 
 .zone {
@@ -23,7 +24,11 @@ body {
 
 
 /* NAV */
-
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
 .main-nav {
     display: flex;
@@ -61,6 +66,10 @@ a {
     align-items: center;
     justify-content: center;
     height: 50vh;
+}
+
+.cover {
+    width: 30rem;
 }
 
 /* GRID */
