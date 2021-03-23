@@ -1,4 +1,4 @@
-console.log("available functions: name(), calculator(), keylessCar(), checkDriverAge(), checkDriverAge2(), arrayAssignment(), objects(), facebook(), loops()")
+console.log("available functions: name(), calculator(), keylessCar(), checkDriverAge(), checkDriverAge2(), arrayAssignment(), objects(), facebook(), loops(), facebookImproved()")
 
 
 function name() {
