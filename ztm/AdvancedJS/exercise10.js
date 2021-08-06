@@ -23,7 +23,7 @@ for (item of basket) {
   console.log(item);
 }
 
-// Question #1:
+// Question #1: change
 // create a function called biggestNumberInArray() that takes
 // an array as a parameter and returns the biggest number.
 // biggestNumberInArray([-1,0,3,100, 99, 2, 99]) should return 100;
