@@ -1,6 +1,6 @@
-import { without } from lodash; 
+var _ = require('lodash');
 
-console.log(without);
+console.log(_);
 
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
