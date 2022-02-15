@@ -41,7 +41,7 @@ const Header = () => {
                 mb: '3rem'
             }}
         >
-            <TypedComponent strings={['Web Design','Web Development','React Ninja','Jazz Musician','Windrunner']} />
+            <TypedComponent strings={['Web Design','Web Development','Technical Support Manager','Jazz Musician','Lightweaver']} />
          </Typography>
 
     </Box>);

@@ -49,7 +49,8 @@ const TimeLine = ({jobs}) => {
                                 <ResumeItem 
                                     key={i - 1}
                                     id={jobs[i].id}
-                                    year={jobs[i].year} 
+                                    startYear={jobs[i].startYear}
+                                    endYear={jobs[i].endYear} 
                                     title={jobs[i].title} 
                                     company={jobs[i].company}
                                     description={jobs[i].description}

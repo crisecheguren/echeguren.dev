@@ -19,7 +19,7 @@ const Resume = () => {
   return (
       <ThemeProvider theme={theme}>
         <Navbar currentPage={'Resume'}/>
-        <Box component="header" sx={{background: '#233'}}>
+        <Box component="header">
             <Typography 
                 variant='h4' 
                 align='center'

@@ -8,7 +8,7 @@ import {
   Stack,
 
  } from '@mui/material'
- import SendIcon from '@mui/icons-material/Send'
+import SendIcon from '@mui/icons-material/Send'
 import Navbar from './Navbar'
 
 
@@ -60,7 +60,7 @@ const Contact = () => {
           component='div'
           sx={{
             background: "#233",
-            height: "100vh"
+            height: "100%"
           }}
         >
           <Grid container justifyContent={'center'}>

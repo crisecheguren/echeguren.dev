@@ -5,6 +5,7 @@ import {
     createTheme
 } from '@mui/material';
 
+
 const theme = createTheme();
 
 const itemStyle = {
@@ -68,52 +69,112 @@ const yearStyle = {
     },
 }
 
-const ResumeItem = ({ id, year, title, company, description}) => {
-  return (
-    <>
-        <Typography 
-            variant='h2'
-            sx={{...itemStyle,...yearStyle}}
-        >
-            {year}
-        </Typography>
-        <Box 
-            component='div' 
-            sx={{...itemStyle}}>
-            
-            <Typography 
-                variant='h5' 
-                align='center'
-                sx={{
-                    color: 'white',
-                    padding: 0,
-                    textTransform: 'uppercase'
-                }}
-            >
-                {title}
-            </Typography>
-            <Typography 
-                variant='body1' 
-                align='center'
-                sx={{
-                    color: 'tomato'
-                }}
-            >
-                {company}
-            </Typography>
-            <Typography 
-                variant='subtitle1' 
-                align='center'
-                sx={{
-                    color: 'tan'
-                }}
-            >
-                {description}
-            </Typography>
-        
-        </Box>
-    </>
-  )
+const ResumeItem = ({ id, startYear,endYear, title, company, description}) => {
+    if (startYear) { 
+        return (
+            <>
+                <Typography 
+                    variant='h2'
+                    sx={{...itemStyle,...yearStyle}}
+                >
+                    {endYear}
+                </Typography>
+                <Box 
+                    component='div' 
+                    sx={{...itemStyle}}>
+                    
+                    <Typography 
+                        variant='h5' 
+                        align='center'
+                        sx={{
+                            color: 'white',
+                            padding: 0,
+                            textTransform: 'uppercase'
+                        }}
+                    >
+                        {title}
+                    </Typography>
+                    <Typography 
+                        variant='body1' 
+                        align='center'
+                        sx={{
+                            color: 'tomato'
+                        }}
+                    >
+                        {company}
+                    </Typography>
+                    <Typography 
+                        variant='subtitle1' 
+                        
+                        sx={{
+                            color: 'tan',
+                            textAlign: 'left'
+                        }}
+                    >
+                        {description}
+                    </Typography>
+                
+                </Box>
+                <Typography 
+                    variant='h2'
+                    sx={{...itemStyle,...yearStyle}}
+                >
+                    {startYear}
+                </Typography>
+            </>
+        )
+    } else {
+        return (
+            <>
+                <Typography 
+                    variant='h2'
+                    sx={{...itemStyle,...yearStyle}}
+                >
+                    {endYear}
+                </Typography>
+                <Box 
+                    component='div' 
+                    sx={{...itemStyle}}>
+                    
+                    <Typography 
+                        variant='h5' 
+                        align='center'
+                        sx={{
+                            color: 'white',
+                            padding: 0,
+                            textTransform: 'uppercase'
+                        }}
+                    >
+                        {title}
+                    </Typography>
+                    <Typography 
+                        variant='body1' 
+                        align='center'
+                        sx={{
+                            color: 'tomato'
+                        }}
+                    >
+                        {company}
+                    </Typography>
+                    <Typography 
+                        variant='subtitle1' 
+                        
+                        sx={{
+                            mt: 3,
+                            color: 'tan',
+                            whiteSpace: 'pre-line',
+                            verticalAlign: 'bottom'
+                            
+                        }}
+                    >
+                        {description}
+                    </Typography>
+                
+                </Box>
+                
+            </>
+        )
+    }
 }
 
 export default ResumeItem

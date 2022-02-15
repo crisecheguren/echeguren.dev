@@ -8,7 +8,7 @@ import CardList from './CardList'
 import projects from '../projects.js';
 
 const containerStyle = {
-    background: "#233",
+    
     height: "100"
 }
 
