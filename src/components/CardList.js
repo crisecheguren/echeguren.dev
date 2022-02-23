@@ -19,6 +19,7 @@ const CardList = ({projects}) => {
                                     name={projects[i].name} 
                                     img={projects[i].img}
                                     description={projects[i].description}
+                                    projectLink={projects[i].projectLink}
                                 />
                                 </Grid>
                            

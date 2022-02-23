@@ -20,8 +20,8 @@ const cardStyle = {
 }
 
 
-const ProjectCard = ({ id, name, img, projectURL, description }) => {
-  return (
+const ProjectCard = ({ id, name, projectLink, img, description, newProp }) => {
+    return (
     
     <>  
         
@@ -46,7 +46,13 @@ const ProjectCard = ({ id, name, img, projectURL, description }) => {
                     <Button size='small' color='primary'>
                         Share
                     </Button>
-                    <Button size='small' color='primary'>
+                    <Button 
+                        size='small' 
+                        color='primary'
+                        target='_blank'
+                        href={projectLink}
+                        
+                    >
                         Live Demo
                     </Button>
                 </CardActions>
