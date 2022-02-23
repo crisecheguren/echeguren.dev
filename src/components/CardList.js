@@ -20,6 +20,7 @@ const CardList = ({projects}) => {
                                     img={projects[i].img}
                                     description={projects[i].description}
                                     projectLink={projects[i].projectLink}
+                                    sourceLink={projects[i].sourceLink}
                                 />
                                 </Grid>
                            

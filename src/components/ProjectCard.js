@@ -20,18 +20,21 @@ const cardStyle = {
 }
 
 
-const ProjectCard = ({ id, name, projectLink, img, description, newProp }) => {
+const ProjectCard = ({ id, name, sourceLink, projectLink, img, description }) => {
     return (
     
     <>  
         
             <Card sx={{...cardStyle}}>
-                <CardActionArea>
+                <CardActionArea 
+                    target='_blank'
+                    href={projectLink}>
                     <CardMedia 
                         component='img'
                         alt={name}
                         height='140'
                         image={img}
+                        
                     />
                     <CardContent>
                     <Typography gutterBottom variant='h5'>
@@ -43,8 +46,13 @@ const ProjectCard = ({ id, name, projectLink, img, description, newProp }) => {
                 </CardContent>
             </CardActionArea>
                 <CardActions>
-                    <Button size='small' color='primary'>
-                        Share
+                    <Button 
+                        size='small' 
+                        color='primary'
+                        target='_blank'
+                        href={sourceLink}
+                    >
+                        Source Code
                     </Button>
                     <Button 
                         size='small' 
