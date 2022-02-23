@@ -29,6 +29,8 @@ const Footer = () => {
                 
             }}
             icon={<GitHub />}
+            href='https://github.com/crisecheguren'
+            target="_blank"
         />
         <BottomNavigationAction
             sx={{
@@ -36,6 +38,8 @@ const Footer = () => {
                 
             }}
             icon={<LinkedIn />}
+            href='https://www.linkedin.com/in/crisecheguren/'
+            target="_blank"
         />
         <BottomNavigationAction
             sx={{
@@ -43,6 +47,8 @@ const Footer = () => {
                 
             }}
             icon={<YouTube />}
+            href='https://www.youtube.com/channel/UCbM9B6NScahVeBjXBVe2ZIQ'
+            target="_blank"
         />
     </BottomNavigation> 
   )
