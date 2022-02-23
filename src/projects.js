@@ -1,4 +1,5 @@
 import quote from './images/quote.png'
+import endless from './images/endless.png'
 
 const projects = [
     {
@@ -10,10 +11,10 @@ const projects = [
     },
     {
         id: 2,
-        name: 'Project 2',
-        img: "https://picsum.photos/400/400",
-        projectLink: "https://picsum.photos/400/400",
-        description: 'This is a long description for project 2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nisi animi aut voluptates. Molestiae fuga, doloremque eius sapiente est atque officiis in ratione saepe porro hic quod facere quam itaque!'
+        name: 'Infinite Scroll',
+        img: endless,
+        projectLink: "https://crisecheguren.github.io/infinite-scroll/",
+        description: 'This infinite scroll project was made using vanilla JS and the unsplashAPI.  I pull some photos and make the api call again to load some more once the user reaches a certain place in the window while scrolling. Each photo links to the unsplash website.'
     },
     {
         id: 3,
