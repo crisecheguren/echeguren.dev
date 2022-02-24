@@ -1,5 +1,7 @@
 import quote from './images/quote.png'
 import endless from './images/endless.png'
+import pip from './images/pip.png'
+import joke from './images/joke.png'
 
 const projects = [
     {
@@ -20,19 +22,19 @@ const projects = [
     },
     {
         id: 3,
-        name: 'Project 3',
-        img: "https://picsum.photos/400/500",
-        projectLink: "https://picsum.photos/400/400",
-        sourceLink: "",
-        description: 'This is a long description for project 3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nisi animi aut voluptates. Molestiae fuga, doloremque eius sapiente est atque officiis in ratione saepe porro hic quod facere quam itaque!'
+        name: 'Picture in Picture',
+        img: pip,
+        projectLink: "https://crisecheguren.github.io/picture-in-picture/",
+        sourceLink: "https://github.com/crisecheguren/picture-in-picture",
+        description: 'This is a fun picture-in-picture project.  When the page loads, the user is prompted to select a screen or media to share. When you press the start button, it initates picture-in-picture mode.'
     },
     {
         id: 4,
-        name: 'Project 4',
-        img: "https://picsum.photos/500/300",
-        projectLink: "https://picsum.photos/400/400",
-        sourceLink: "",
-        description: 'This is a long description for project 4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nisi animi aut voluptates. Molestiae fuga, doloremque eius sapiente est atque officiis in ratione saepe porro hic quod facere quam itaque!'
+        name: 'Joke Teller',
+        img: joke,
+        projectLink: "https://crisecheguren.github.io/joke-teller/",
+        sourceLink: "https://github.com/crisecheguren/joke-teller",
+        description: 'This project showcased the VoiceRSS API (text-to-speech) and the JokeAPI.  I fetched a joke and played it through an audio element triggered by a button.'
     }
 ]
 
