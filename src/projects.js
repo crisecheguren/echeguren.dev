@@ -2,6 +2,7 @@ import quote from './images/quote.png'
 import endless from './images/endless.png'
 import pip from './images/pip.png'
 import joke from './images/joke.png'
+import lightDark from './images/lightDark.png'
 
 const projects = [
     {
@@ -35,6 +36,14 @@ const projects = [
         projectLink: "https://crisecheguren.github.io/joke-teller/",
         sourceLink: "https://github.com/crisecheguren/joke-teller",
         description: 'This project showcased the VoiceRSS API (text-to-speech) and the JokeAPI.  I fetched a joke and played it through an audio element triggered by a button.'
+    },
+    {
+        id: 5,
+        name: 'Light/Dark Mode',
+        img: lightDark,
+        projectLink: "https://crisecheguren.github.io/light-dark-theme/",
+        sourceLink: "https://github.com/crisecheguren/light-dark-theme",
+        description: 'This light/dark mode project was made using vanilla JS and CSS.  I learned a lot about how to manipulate the root theme and also how to use localStorage to make sure I remember which theme a user picks.'
     }
 ]
 
