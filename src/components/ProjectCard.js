@@ -15,8 +15,10 @@ import {
 
 
 const cardStyle = {
-    maxWidth: 375,
-    margin: "5rem auto"
+    maxWidth: 425,
+    margin: "5rem auto",
+    
+    
 }
 
 
