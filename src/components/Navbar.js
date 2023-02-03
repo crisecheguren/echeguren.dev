@@ -62,7 +62,7 @@ const Navbar = ( {currentPage} ) => {
 
             sx={{
                 width: 250,
-                background: "#511",
+                background: "#4E84FF",
                 height: "100%"
             }} 
             component="div"
