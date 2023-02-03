@@ -44,6 +44,14 @@ const projects = [
         projectLink: "https://crisecheguren.github.io/light-dark-theme/",
         sourceLink: "https://github.com/crisecheguren/light-dark-theme",
         description: 'This light/dark mode project was made using vanilla JS and CSS.  I learned a lot about how to manipulate the root theme and also how to use localStorage to make sure I remember which theme a user picks.'
+    },
+    {
+        id: 6,
+        name: 'Monsters Rolodex',
+        img: lightDark,
+        projectLink: "https://crisecheguren.github.io/monsters-rolodex/",
+        sourceLink: "https://github.com/crisecheguren/monsters-rolodex/",
+        description: 'This is a super simple project that uses vanilla react to fetch some monsters from an API and display them on the page.  I also added a search bar to filter the monsters by name.'
     }
 ]
 

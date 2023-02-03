@@ -39,14 +39,14 @@ const ProjectCard = ({ id, name, sourceLink, projectLink, img, description }) =>
                         
                     />
                     <CardContent>
-                    <Typography gutterBottom variant='h5'>
-                        {name}
-                </Typography>
-                <Typography variant='body2' color='textSecondary' component='p'>
-                    {description}
-                </Typography>
-                </CardContent>
-            </CardActionArea>
+                        <Typography gutterBottom variant='h5'>
+                            {name}
+                        </Typography>
+                        <Typography variant='body2' color='textSecondary' component='p'>
+                            {description}
+                        </Typography>
+                    </CardContent>
+                </CardActionArea>
                 <CardActions>
                     <Button 
                         size='small' 
