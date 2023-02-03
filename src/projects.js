@@ -3,6 +3,7 @@ import endless from './images/endless.png'
 import pip from './images/pip.png'
 import joke from './images/joke.png'
 import lightDark from './images/lightDark.png'
+import monsters from './images/monsters.png'
 
 const projects = [
     {
@@ -48,7 +49,7 @@ const projects = [
     {
         id: 6,
         name: 'Monsters Rolodex',
-        img: lightDark,
+        img: monsters,
         projectLink: "https://crisecheguren.github.io/monsters-rolodex/",
         sourceLink: "https://github.com/crisecheguren/monsters-rolodex/",
         description: 'This is a super simple project that uses vanilla react to fetch some monsters from an API and display them on the page.  I also added a search bar to filter the monsters by name.'
